@@ -1,0 +1,24 @@
+.infoContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.infoContainer > div {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 4px 8px 2px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.purple {
+  color: var(--purple);
+}

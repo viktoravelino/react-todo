@@ -1,0 +1,23 @@
+.createButton {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  border: 0;
+
+  padding: 1rem;
+  gap: 8px;
+}
+
+.createButton:hover {
+  background: var(--blue);
+  cursor: pointer;
+}
+
+.createButton:focus {
+  box-shadow: none;
+}
